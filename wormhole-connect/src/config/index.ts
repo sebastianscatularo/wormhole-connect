@@ -160,6 +160,7 @@ export function buildConfig(
 
     // Guardian Set
     guardianSet: networkData.guardianSet,
+    nttAddressLookupTable: '', // TODO add lookup table address for NTT
   };
 }
 

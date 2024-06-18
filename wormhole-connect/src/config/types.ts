@@ -209,6 +209,7 @@ export interface InternalConfig {
   // NTT config
   nttGroups: NttGroups;
   guardianSet: GuardianSetData;
+  nttAddressLookupTable: string;
 }
 
 export type ExplorerConfig = {
